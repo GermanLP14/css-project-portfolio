@@ -66,11 +66,6 @@ a{
 }
 
 .main-img{
-  /* overflow: hidden; */
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* max-width: 100%; */
   flex: 1;
   min-width: 0;
 }
