@@ -50,6 +50,10 @@ a{
   gap: 40px;
 }
 
+.main-msg {
+  flex: 1;
+}
+
 .main-msg h1{
   font-size: 50px;
   color: white;
@@ -62,11 +66,19 @@ a{
 }
 
 .main-img{
-  height: 100%;
-  overflow: hidden;
-  display: flex;
+  /* overflow: hidden; */
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  /* max-width: 100%; */
+  flex: 1;
+  min-width: 0;
+}
+
+.main-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .main-btn{
@@ -77,7 +89,7 @@ a{
   font-weight: bold;
   color: white;
   border: none;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .random{
